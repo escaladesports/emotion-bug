@@ -10,7 +10,7 @@ module.exports = {
 	},
 	plugins: [
 		`gatsby-plugin-emotion`,
-		`zygote`,
+		`test`,
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {

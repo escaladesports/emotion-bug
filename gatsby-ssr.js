@@ -1,5 +1,5 @@
-console.log(`\n\n\nGATSBY SSR GATSBY-SSR\n\n\n`)
+console.log(`\n\n\nROOT SSR\n\n\n`)
 
 exports.onRenderBody = ({ setPostBodyComponents }) => {
-	console.log(`\n\n\nONRENDERBODY\n\n\n`)
+	console.log(`\n\n\nROOT ONRENDERBODY\n\n\n`)
 }
