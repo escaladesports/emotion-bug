@@ -1,4 +1,4 @@
-const React = require(`react`)
+const React = require('react')
 
 console.log(`\n\n\nGATSBY SSR\n\n\n`)
 exports.onRenderBody = ({ setPreBodyComponents }) => {

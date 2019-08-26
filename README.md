@@ -1,3 +1,15 @@
+# Emotion Bug Demonstration
+
+## To Recreate
+
+There are 2 `console.log`s in `plugins/test/gatsby-ssr.js` that should both fire. One is in the root scope of the file, the other is in the `onRenderBody` function.
+
+1. Run `yarn build` (with Emotion plugin)
+2. Notice that only `GATSBY SSR` and not the `ONRENDERBODY` get logged to the console
+3. Comment out the Emotion plugin in `./gatsby-config.js`
+4. Run `yarn build` again (this time Emotion is commented out)
+5. Notice that both `GATSBY SSR` and `ONRENDERBODY` get logged as expected
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
